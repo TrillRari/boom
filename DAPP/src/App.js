@@ -4,7 +4,7 @@ import logo from './images/logo.png';
 import collection from './images/hape.gif'
 import './App.css';
 
-let WalletAddress = "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199";
+let WalletAddress = "0xDE51CF3197f5D6dbc53e9a694cf43a31eDf88462";
 
 function App() {
 
