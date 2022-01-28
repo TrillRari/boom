@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { ethers } from 'ethers';
-import Wallet from './artifacts/contracts/Wallet.sol/Wallet.json';
 import logo from './images/logo.png';
 import collection from './images/hape.gif'
 import './App.css';
@@ -75,7 +74,7 @@ function App() {
                 <div className="tab-item">
                   <div className="tab-item-product">
                     <div className="tab-item2">
-                      <h4><img src={collection} className="img"/></h4>
+                      <h4><img src={collection} alt="string"  className="img"/></h4>
                     </div>
                     <div className="tab-item2">
                       <h4>Price Per NFT</h4><br/><b>0.16 ETH </b>
